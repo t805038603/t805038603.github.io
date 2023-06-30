@@ -6,11 +6,11 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-01T07:43:35.861Z</updated>
+  <updated>2023-06-30T12:18:16.094Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>晨</name>
+    <name>是只羊吖</name>
     
   </author>
   
@@ -21,15 +21,16 @@
     <link href="http://example.com/2023/06/30/%E9%81%87%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     <id>http://example.com/2023/06/30/%E9%81%87%E8%A7%81%E9%97%AE%E9%A2%98/</id>
     <published>2023-06-30T11:21:01.217Z</published>
-    <updated>2022-07-01T07:43:35.861Z</updated>
+    <updated>2023-06-30T12:18:16.094Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="–Problem–"><a href="#–Problem–" class="headerlink" title="–Problem–"></a>–Problem–</h3><ul><li><p>实现接口的类要实现接口的<em><strong>所有方法</strong></em>，否则应该将该类声明为abstract</p></li><li><p><strong>String方法：</strong>(<code>boolean</code>  <code>endsWith(String suffix)</code>  测试此字符串是否以指定的后缀结尾。)</p></li><li><p>时间戳：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">long</span>  start= System.currenTimeMillis();</span><br><span class="line"><span class="type">long</span>  end= System.currenTimeMillis();</span><br><span class="line">System.out.println (end-start);</span><br></pre></td></tr></table></figure></li></ul><h3 id="1、请求转发和重定向的区别"><a href="#1、请求转发和重定向的区别" class="headerlink" title="1、请求转发和重定向的区别"></a>1、请求转发和重定向的区别</h3><p>1、请求转发是服务器行为，重定向是客户端行为。</p><p>2、请求转发只能将请求转发给同一个web应用下的其他页面</p><p>重定向不仅可以将请求转发给同一个web应用下的其他页面，还可以转发到其它站点的</p><p>页面</p><p>3、请求转发是一次请求，重定向是两次请求</p><p>4、请求转发地址栏url不会发生变化，重定向地址栏url会发生变化</p><p>请求转发：</p><ul><li>服务器行为，服务端将这个请求信息进行一个转发并且将请求转发的对象进行保存</li><li>URL路径栏中的路径是没有变化的：</li><li>一个servlet将一个请求转发给服务器内部的另一个servlet的行为：只能将请求转发内部资源</li></ul><p><img src="C:\Users\t805038603\Desktop\GTABOSS\picture\请求转发.png" alt="image-20220422163134554"></p>]]></content>
+    <content type="html"><![CDATA[<p>tag: 编程</p><h3 id="–Problem–"><a href="#–Problem–" class="headerlink" title="–Problem–"></a>–Problem–</h3><ul><li><p>实现接口的类要实现接口的<em><strong>所有方法</strong></em>，否则应该将该类声明为abstract</p></li><li><p><strong>String方法：</strong>(<code>boolean</code>  <code>endsWith(String suffix)</code>  测试此字符串是否以指定的后缀结尾。)</p></li><li><p>时间戳：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">long</span>  start= System.currenTimeMillis();</span><br><span class="line"><span class="type">long</span>  end= System.currenTimeMillis();</span><br><span class="line">System.out.println (end-start);</span><br></pre></td></tr></table></figure></li></ul><h3 id="1、请求转发和重定向的区别"><a href="#1、请求转发和重定向的区别" class="headerlink" title="1、请求转发和重定向的区别"></a>1、请求转发和重定向的区别</h3><p>1、请求转发是服务器行为，重定向是客户端行为。</p><p>2、请求转发只能将请求转发给同一个web应用下的其他页面</p><p>重定向不仅可以将请求转发给同一个web应用下的其他页面，还可以转发到其它站点的</p><p>页面</p><p>3、请求转发是一次请求，重定向是两次请求</p><p>4、请求转发地址栏url不会发生变化，重定向地址栏url会发生变化</p><p>请求转发：</p><ul><li>服务器行为，服务端将这个请求信息进行一个转发并且将请求转发的对象进行保存</li><li>URL路径栏中的路径是没有变化的：</li><li>一个servlet将一个请求转发给服务器内部的另一个servlet的行为：只能将请求转发内部资源</li></ul><p><img src="C:\Users\t805038603\Desktop\GTABOSS\picture\请求转发.png" alt="image-20220422163134554"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;–Problem–&quot;&gt;&lt;a href=&quot;#–Problem–&quot; class=&quot;headerlink&quot; title=&quot;–Problem–&quot;&gt;&lt;/a&gt;–Problem–&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;实现接口的类要实现接口的&lt;em&gt;&lt;strong&gt;所有方法&lt;/str</summary>
+    <summary type="html">&lt;p&gt;tag: 编程&lt;/p&gt;
+&lt;h3 id=&quot;–Problem–&quot;&gt;&lt;a href=&quot;#–Problem–&quot; class=&quot;headerlink&quot; title=&quot;–Problem–&quot;&gt;&lt;/a&gt;–Problem–&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;实现接口的类要实现接口的&lt;em&gt;&lt;s</summary>
       
     
     
