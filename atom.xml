@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>欢迎来到我的博客</title>
-  
+  <icon>http://example.com/images/favicon_200x200.png</icon>
   <subtitle>时常开心，认真记录，发现光芒</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
