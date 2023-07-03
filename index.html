@@ -19,13 +19,13 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"chenyao.love","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="蝉活八日、向死而生">
 <meta property="og:type" content="website">
 <meta property="og:title" content="欢迎来到我的博客">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://chenyao.love/index.html">
 <meta property="og:site_name" content="欢迎来到我的博客">
 <meta property="og:description" content="蝉活八日、向死而生">
 <meta property="og:locale" content="zh_CN">
@@ -33,7 +33,7 @@
 <meta property="article:tag" content="生活、日常、学习、爱情">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://chenyao.love/">
 
 
 <script id="page-configurations">
@@ -206,7 +206,7 @@
   
   
 <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/30/%E9%81%87%E8%A7%81%E9%97%AE%E9%A2%98/">
+  <link itemprop="mainEntityOfPage" href="http://chenyao.love/2023/06/30/%E9%81%87%E8%A7%81%E9%97%AE%E9%A2%98/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -231,19 +231,27 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-06-30 19:21:01 / 修改时间：20:18:16" itemprop="dateCreated datePublished"
+              <time title="创建时间：2023-06-30 19:21:01" itemprop="dateCreated datePublished"
                     datetime="2023-06-30T19:21:01+08:00">2023-06-30</time>
             </span>
+            <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-07-03 02:12:13"
+                      itemprop="dateModified"
+                      datetime="2023-07-03T02:12:13+08:00">2023-07-03</time>
+              </span>
 
-        <br>
+        
           <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>478</span>
+              <span>530</span>
             </span>
           <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -263,29 +271,20 @@
        itemprop="articleBody">
 
     
-        <p>tag: 编程</p>
-<h3 id="–Problem–"><a href="#–Problem–" class="headerlink" title="–Problem–"></a>–Problem–</h3><ul>
-<li><p>实现接口的类要实现接口的<em><strong>所有方法</strong></em>，否则应该将该类声明为abstract</p>
-</li>
-<li><p><strong>String方法：</strong>(<code>boolean</code>  <code>endsWith(String suffix)</code>  测试此字符串是否以指定的后缀结尾。)</p>
-</li>
-<li><p>时间戳：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">long</span>  start= System.currenTimeMillis();</span><br><span class="line"><span class="type">long</span>  end= System.currenTimeMillis();</span><br><span class="line">System.out.println (end-start);</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="1、请求转发和重定向的区别"><a href="#1、请求转发和重定向的区别" class="headerlink" title="1、请求转发和重定向的区别"></a>1、请求转发和重定向的区别</h3><p>1、请求转发是服务器行为，重定向是客户端行为。</p>
-<p>2、请求转发只能将请求转发给同一个web应用下的其他页面</p>
-<p>重定向不仅可以将请求转发给同一个web应用下的其他页面，还可以转发到其它站点的</p>
-<p>页面</p>
-<p>3、请求转发是一次请求，重定向是两次请求</p>
-<p>4、请求转发地址栏url不会发生变化，重定向地址栏url会发生变化</p>
-<p>请求转发：</p>
-<ul>
-<li>服务器行为，服务端将这个请求信息进行一个转发并且将请求转发的对象进行保存</li>
-<li>URL路径栏中的路径是没有变化的：</li>
-<li>一个servlet将一个请求转发给服务器内部的另一个servlet的行为：只能将请求转发内部资源</li>
-</ul>
-<p><img src="C:\Users\t805038603\Desktop\GTABOSS\picture\请求转发.png" alt="image-20220422163134554"></p>
-
+        <p>title: 编程</p>
+<p>copyright: true</p>
+<p>date: 2023-06-30</p>
+<p>tags: </p>
+<p>​	-Markdown</p>
+<p>​	-问题概述</p>
+        <!--noindex-->
+          <div class="post-button">
+            <a class="btn" href="/2023/06/30/%E9%81%87%E8%A7%81%E9%97%AE%E9%A2%98/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        <!--/noindex-->
+      
     
   </div>
 
@@ -308,7 +307,7 @@
   
   
 <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/29/hello-world/">
+  <link itemprop="mainEntityOfPage" href="http://chenyao.love/2023/06/29/hello-world/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -342,12 +341,12 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：1985-10-26 16:15:00"
+                <time title="修改时间：2023-07-03 02:14:04"
                       itemprop="dateModified"
-                      datetime="1985-10-26T16:15:00+08:00">1985-10-26</time>
+                      datetime="2023-07-03T02:14:04+08:00">2023-07-03</time>
               </span>
 
-        <br>
+        
           <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -374,19 +373,14 @@
 
     
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+        <!--noindex-->
+          <div class="post-button">
+            <a class="btn" href="/2023/06/29/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        <!--/noindex-->
+      
     
   </div>
 
@@ -522,7 +516,7 @@
 
         
 
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
 
 <div class="copyright">
@@ -530,9 +524,23 @@
   &copy; 
   <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
-    <i class="fa-chrome"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">羊吖</span>
+
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+
+    <span title="站点总字数">1k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span
+      title="站点阅读时长">2 分钟</span>
 </div>
 
   <div class="powered-by">
