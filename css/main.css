@@ -1260,7 +1260,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #3dffd7;
+  background: #0d8ab5;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2420,7 +2420,7 @@ hr {
   padding: 10px 0;
 }
 .footer-inner {
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .footer-inner {
@@ -2429,6 +2429,9 @@ hr {
   }
 }
 .header {
+  background: var(--content-bg-color);
+}
+.header.header {
   background: var(--content-bg-color);
 }
 .header-inner {
@@ -2640,18 +2643,27 @@ body {
   background-size: cover;
   background-position: center;
 }
+.main {
+  background: rgba(1,1,1,0.3);
+}
+:root {
+  --link-color: #ffdbdb;
+}
 .main-inner > .sub-menu,
 .main-inner > .post-block,
 .main-inner > .tabs-comment,
 .main-inner > .comments,
 .main-inner > .pagination {
-  background: rgba(245,245,245,0.42);
+  background: rgba(255,255,255,0);
 }
 body {
-  color: #000;
+  color: #fe9d9e;
+}
+.posts-expand .post-meta {
+  color: #fefdfd;
 }
 .posts-expand .post-title-link {
-  color: #000;
+  color: rgba(255,255,255,0);
 }
 .posts-expand .post-meta-container {
   color: #800;
@@ -2665,10 +2677,10 @@ body {
 .popup {
   opacity: 0.9;
 }
-.main-inner {
-  background-color: rgba(255,255,255,0.8);
-  padding: 0px 40px 40px 40px;
-}
+/*.main-inner {
+  background-color: rgba(255, 255, 255, 0.8); //主体背景透明
+  padding: 0px 40px 40px 40px; //调整组件位置
+}*/
 .hider_title {
   cursor: pointer;
   color: #000;
@@ -2678,4 +2690,7 @@ body {
 }
 .open:before {
   content: "▲";
+}
+.post-button .btn {
+  color: #fff;
 }
